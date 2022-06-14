@@ -1,0 +1,111 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  max-width: 50%;
+}
+
+header {
+  padding: 3%;
+}
+
+nav {
+  display: none;
+}
+
+.burger-menu {
+  padding-top: 20px;
+  color: blueviolet;
+  height: 24px;
+  display: block;
+}
+
+.dropdown-content {
+}
+
+​ .banner {
+  background-image: url(https://festadafrancofonia.com/wp-content/uploads/2022/02/back-home1-1024x957.png);
+  background-size: cover; /*kad tilptu paveiksliukas*/
+}
+
+.banner div {
+  color: white;
+  padding: 40px 20px;
+}
+
+.banner div p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.banner div h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+main {
+  padding: 0 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 90px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 29px; /*kad zodziai vertikaliai butu arciau vienas kito*/
+}
+
+main section img {
+  max-width: 100%;
+}
+
+#red-date-text {
+  color: rgb(197, 49, 49);
+}
+
+hr {
+  width: 90%;
+}
+
+.bottom-section {
+  padding-top: 30px;
+  margin: 30px;
+  border-top: 1px solid black;
+}
+
+.bottom-section p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.bottom-section div {
+  padding-top: 40px;
+  text-align: center;
+}
+
+i {
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+i:hover {
+  opacity: 0.2; /*uzvedus pele, padaro permatomus*/
+}
+
+footer {
+  padding-left: 5px;
+  padding-top: 20px;
+  background-color: #2b2e34;
+  color: #fff;
+  font-size: 10px;
+}
+
+footer div {
+  padding-left: 7px;
+}
+
+footer a {
+  line-height: 20px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
