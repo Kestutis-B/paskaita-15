@@ -22,10 +22,11 @@ nav {
 }
 
 .dropdown-content {
+  /*irasyti sintakse*/
 }
 
-​ .banner {
-  background-image: url(https://festadafrancofonia.com/wp-content/uploads/2022/02/back-home1-1024x957.png);
+​.banner {
+  background-color: red;
   background-size: cover; /*kad tilptu paveiksliukas*/
 }
 
@@ -108,4 +109,85 @@ footer a {
   display: block;
   color: #fff;
   text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .burger-menu {
+    display: none;
+  }
+
+  .logo {
+    max-width: 150px;
+    flex-grow: 1;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav {
+    display: flex;
+    flex-grow: 2;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  nav a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 5px;
+  }
+
+  .logo {
+    flex-grow: 1;
+  }
+
+  main {
+    grid-template-columns: 1fr 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+  }
+
+  main section:nth-child(2) {
+    align-self: center;
+  }
+
+  #red-date-text {
+    margin-top: 0;
+  }
+
+  .bottom-section {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .bottom-section img {
+    max-width: 150px;
+    padding-right: 50px;
+  }
+
+  .bottom-section div {
+    display: flex;
+    justify-self: flex-end;
+  }
+
+  footer {
+    padding: 15px 0;
+  }
+
+  footer div a {
+    padding-left: 100px;
+    display: inline;
+  }
+
+  footer p {
+    display: inline;
+  }
+  footer div {
+    display: inline;
+  }
 }
